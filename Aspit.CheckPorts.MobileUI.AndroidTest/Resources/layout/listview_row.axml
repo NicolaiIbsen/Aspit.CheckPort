@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <TextView
+      android:text="Port Specifier"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="33"
+      android:id="@+id/txtPortSpecifier" />
+  <TextView
+      android:text="Port number"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="33"
+      android:id="@+id/txtPortNumber" />
+  <TextView
+      android:text="Port Activity"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="33"
+      android:id="@+id/txtPortActivity" />
+</LinearLayout>
